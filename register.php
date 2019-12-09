@@ -1,15 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
+<?php require "head.php"; ?>
+<body class="form-container">
+    <h1>TINCAT</h1>
     <form action="">
         <input type="text" placeholder="pseudo">
         <input type="password" placeholder="password">
+        <input type="submit" placeholder="register">
     </form>
 </body>
 </html>

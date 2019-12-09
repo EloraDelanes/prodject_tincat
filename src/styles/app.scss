@@ -1,5 +1,34 @@
-$color: red;
+$color: green;
 
 h1{
     color: $color;
+    font-family: 'Pacifico', cursive;
+}
+.input:focus{
+    outline: none;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.form-container form{
+    display: flex;
+    flex-direction: column;
+}
+.form-container input{
+    padding: 15px;
+    font-size: 1.4rem;
+    border: none;
+    border-bottom: 1px solid black;
+
+}
+.form-container input[type=submit]{
+    margin-top:2rem ;
+    border: 1px solid grey;
+}
+.form-container h1{
+    text-align: center;
 }
