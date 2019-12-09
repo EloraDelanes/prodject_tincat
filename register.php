@@ -1,10 +1,13 @@
 <?php require "head.php"; ?>
-<body class="form-container">
-    <h1>TINCAT</h1>
-    <form action="">
-        <input type="text" placeholder="pseudo">
-        <input type="password" placeholder="password">
-        <input type="submit" placeholder="register">
-    </form>
+<body>
+    <div class="form-container">
+        <h1>TINCAT</h1>
+        <form action="functions/setUser.php" method="post">
+            <input type="text" placeholder="pseudo" name="pseudo">
+            <input type="password" placeholder="password" name="password">
+            <input type="submit" value="register">
+        </form>
+    </div>
+
 </body>
 </html>
