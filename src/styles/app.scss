@@ -15,6 +15,10 @@ body{
     text-align: center;
     flex-direction: column;
 }
+.fond{
+    background-image: url(../img/cats.jpg);
+    height: 100%;
+}
 .form-container form{
     display: flex;
     flex-direction: column;
@@ -33,3 +37,4 @@ body{
 .form-container h1{
     text-align: center;
 }
+
